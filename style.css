@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
+
+:root {
+    --color-background: #201b2c;
+    --color-card: #2f2841;
+    --base-white: #fffefe;
+    --yellow: #F3DFBF;
+    --green: #42E2B8;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background);
+    font-family: 'Krona One', sans-serif;
+    color: white;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form-container-left {
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.form-container-right {
+    width: 50vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container-right h1{
+    padding: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--yellow);
+}
+
+.form-container-right p{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.form-container-right img {
+    padding: 60px;
+    width: 25vw;
+}
+
+.card {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: var(--color-card) ;
+}
+
+
+.footer {
+    position: static;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.link-profile-github {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.link-profile-github:hover {
+    transition: 0.5s;
+    color: var(--green);
+    font-weight: 800;
+}
